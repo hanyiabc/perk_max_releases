@@ -1,0 +1,1242 @@
+{
+  "catalogVersion": 1,
+  "cards": [
+    {
+      "id": "amex_gold",
+      "issuer": "American Express",
+      "name": "American Express Gold",
+      "imageAsset": "assets/cards/amex_gold.png",
+      "annualFeeCents": 32500,
+      "credits": [
+        {
+          "id": "dining",
+          "name": "Dining Credit",
+          "valueType": "statement_credit",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible participating dining partners."
+        },
+        {
+          "id": "uber_cash",
+          "name": "Uber Cash",
+          "valueType": "partner_cash",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Usable with Uber and Uber Eats in the United States."
+        },
+        {
+          "id": "dunkin",
+          "name": "Dunkin Credit",
+          "valueType": "statement_credit",
+          "amountCents": 700,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible Dunkin purchases."
+        },
+        {
+          "id": "resy",
+          "name": "Resy Credit",
+          "valueType": "statement_credit",
+          "amountCents": 5000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible U.S. Resy restaurants."
+        }
+      ]
+    },
+    {
+      "id": "amex_platinum",
+      "issuer": "American Express",
+      "name": "American Express Platinum",
+      "imageAsset": "assets/cards/amex_platinum.webp",
+      "annualFeeCents": 89500,
+      "credits": [
+        {
+          "id": "hotel_credit",
+          "name": "Hotel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": false,
+          "note": "Prepaid Fine Hotels + Resorts or The Hotel Collection bookings through Amex Travel."
+        },
+        {
+          "id": "uber_cash",
+          "name": "Uber Cash",
+          "valueType": "partner_cash",
+          "amountCents": 1500,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Monthly U.S. Uber Cash; December includes a $20 bonus.",
+          "amountSchedule": {
+            "overrides": {
+              "12": 3500
+            }
+          }
+        },
+        {
+          "id": "uber_one",
+          "name": "Uber One Credit",
+          "valueType": "statement_credit",
+          "amountCents": 12000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Auto-renewing Uber One membership statement credit, up to the calendar-year cap."
+        },
+        {
+          "id": "airline_fee",
+          "name": "Airline Fee Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "note": "Incidental fees on one selected qualifying airline."
+        },
+        {
+          "id": "digital_entertainment",
+          "name": "Digital Entertainment Credit",
+          "valueType": "statement_credit",
+          "amountCents": 2500,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible purchases with participating digital entertainment partners."
+        },
+        {
+          "id": "resy",
+          "name": "Resy Credit",
+          "valueType": "statement_credit",
+          "amountCents": 10000,
+          "cadence": "quarterly",
+          "refresh": {
+            "type": "calendar_quarter"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible purchases at U.S. Resy restaurants and with Resy."
+        },
+        {
+          "id": "lululemon",
+          "name": "lululemon Credit",
+          "valueType": "statement_credit",
+          "amountCents": 7500,
+          "cadence": "quarterly",
+          "refresh": {
+            "type": "calendar_quarter"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible U.S. lululemon retail store and lululemon.com purchases."
+        },
+        {
+          "id": "walmart_plus",
+          "name": "Walmart+ Monthly Membership Credit",
+          "valueType": "statement_credit",
+          "amountCents": 1295,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "One monthly Walmart+ membership fee, plus applicable local sales tax."
+        },
+        {
+          "id": "clear_plus",
+          "name": "CLEAR+ Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20900,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Auto-renewing CLEAR+ membership, excluding taxes and fees."
+        },
+        {
+          "id": "oura",
+          "name": "Oura Ring Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible Oura Ring purchase at ouraring.com."
+        },
+        {
+          "id": "equinox",
+          "name": "Equinox Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible Equinox+ digital subscription or Equinox club membership."
+        }
+      ]
+    },
+    {
+      "id": "amex_hilton_aspire",
+      "issuer": "American Express",
+      "name": "Hilton Honors American Express Aspire",
+      "imageAsset": "assets/cards/amex_hilton_aspire.png",
+      "annualFeeCents": 55000,
+      "credits": [
+        {
+          "id": "resort_credit",
+          "name": "Hilton Resort Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible purchases at participating Hilton Resorts each half-calendar year (Jan\u2013Jun, Jul\u2013Dec)."
+        },
+        {
+          "id": "airline_fee",
+          "name": "Airline Fee Credit",
+          "valueType": "statement_credit",
+          "amountCents": 5000,
+          "cadence": "quarterly",
+          "refresh": {
+            "type": "calendar_quarter"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible incidental fees on one selected qualifying airline per quarter."
+        },
+        {
+          "id": "clear_plus",
+          "name": "CLEAR+ Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20900,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Auto-renewing CLEAR+ membership credit, excluding taxes and fees."
+        },
+        {
+          "id": "free_night_reward",
+          "name": "Free Night Reward",
+          "valueType": "certificate",
+          "amountCents": 90000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "note": "Annual free night certificate valid at any Hilton property (150k points, TPG 0.6\u00a2/pt)."
+        }
+      ]
+    },
+    {
+      "id": "amex_marriott_brilliant",
+      "issuer": "American Express",
+      "name": "Marriott Bonvoy Brilliant American Express",
+      "imageAsset": "assets/cards/amex_marriott_brilliant.webp",
+      "annualFeeCents": 65000,
+      "credits": [
+        {
+          "id": "dining",
+          "name": "Dining Credit",
+          "valueType": "statement_credit",
+          "amountCents": 2500,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible restaurant purchases worldwide each calendar month."
+        },
+        {
+          "id": "property_credit",
+          "name": "Ritz-Carlton / St. Regis Property Credit",
+          "valueType": "statement_credit",
+          "amountCents": 10000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "On-property credit at Ritz-Carlton or St. Regis properties booked directly; applied per stay."
+        },
+        {
+          "id": "free_night_award",
+          "name": "Free Night Award",
+          "valueType": "certificate",
+          "amountCents": 76500,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "note": "Annual free night award up to 85,000 Marriott Bonvoy points (TPG 0.9\u00a2/pt)."
+        },
+        {
+          "id": "free_night_award_spend",
+          "name": "Free Night Award (Spend Bonus)",
+          "valueType": "certificate",
+          "amountCents": 76500,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "spendGate": {
+            "thresholdCents": 6000000
+          },
+          "note": "Additional free night award after $60,000 in calendar-year purchases (85k points, TPG 0.9\u00a2/pt)."
+        }
+      ]
+    },
+    {
+      "id": "amex_delta_reserve",
+      "issuer": "American Express",
+      "name": "Delta SkyMiles Reserve American Express",
+      "imageAsset": "assets/cards/amex_delta_reserve.png",
+      "annualFeeCents": 65000,
+      "credits": [
+        {
+          "id": "resy",
+          "name": "Resy Credit",
+          "valueType": "statement_credit",
+          "amountCents": 2000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible U.S. Resy restaurant purchases each calendar month."
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare Credit",
+          "valueType": "statement_credit",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible U.S. Lyft or Uber rides each calendar month."
+        },
+        {
+          "id": "uber_one",
+          "name": "Uber One Credit",
+          "valueType": "statement_credit",
+          "amountCents": 999,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Monthly Uber One membership fee credit through 06/30/2026.",
+          "validThrough": "2026-06-30"
+        },
+        {
+          "id": "delta_stays",
+          "name": "Delta Stays Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible hotel bookings through Delta Stays each calendar year."
+        },
+        {
+          "id": "companion_certificate_30k",
+          "name": "Companion Certificate (30k Spend)",
+          "valueType": "certificate",
+          "amountCents": 50000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "spendGate": {
+            "thresholdCents": 3000000
+          },
+          "note": "Choice of companion certificate after $30,000 in calendar-year purchases."
+        },
+        {
+          "id": "companion_certificate_60k",
+          "name": "Companion Certificate (60k Spend)",
+          "valueType": "certificate",
+          "amountCents": 50000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "spendGate": {
+            "thresholdCents": 6000000
+          },
+          "note": "Additional companion certificate after $60,000 in calendar-year purchases."
+        }
+      ]
+    },
+    {
+      "id": "amex_business_gold",
+      "issuer": "American Express",
+      "name": "American Express Business Gold",
+      "imageAsset": "assets/cards/amex_business_gold.webp",
+      "annualFeeCents": 37500,
+      "credits": [
+        {
+          "id": "business_credit",
+          "name": "Business Credit",
+          "valueType": "statement_credit",
+          "amountCents": 2000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible U.S. FedEx, Grubhub, or office supply store purchases each calendar month."
+        },
+        {
+          "id": "walmart_plus",
+          "name": "Walmart+ Monthly Membership Credit",
+          "valueType": "statement_credit",
+          "amountCents": 1295,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "One monthly Walmart+ membership fee, plus applicable local sales tax."
+        },
+        {
+          "id": "chatgpt_business",
+          "name": "ChatGPT Credit",
+          "valueType": "statement_credit",
+          "amountCents": 2500,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible ChatGPT subscription purchases each calendar month, up to $300/year."
+        },
+        {
+          "id": "squarespace",
+          "name": "Squarespace Credit",
+          "valueType": "statement_credit",
+          "amountCents": 15000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible Squarespace subscription purchases each calendar year."
+        }
+      ]
+    },
+    {
+      "id": "amex_business_platinum",
+      "issuer": "American Express",
+      "name": "American Express Business Platinum",
+      "imageAsset": "assets/cards/amex_business_platinum.webp",
+      "annualFeeCents": 89500,
+      "credits": [
+        {
+          "id": "hotel_credit",
+          "name": "Hotel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": false,
+          "note": "Prepaid Fine Hotels + Resorts or The Hotel Collection bookings through Amex Travel; $300 each half-calendar year."
+        },
+        {
+          "id": "airline_fee",
+          "name": "Airline Fee Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible incidental fees on one selected qualifying airline each calendar year."
+        },
+        {
+          "id": "dell_base",
+          "name": "Dell Technologies Credit",
+          "valueType": "statement_credit",
+          "amountCents": 15000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "note": "Up to $150 on eligible U.S. Dell Technologies purchases each calendar year."
+        },
+        {
+          "id": "dell_spend",
+          "name": "Dell Technologies Credit (Spend Bonus)",
+          "valueType": "statement_credit",
+          "amountCents": 100000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "spendGate": {
+            "thresholdCents": 500000
+          },
+          "note": "Additional $1,000 after spending $5,000+ on U.S. Dell Technologies purchases each calendar year."
+        },
+        {
+          "id": "hilton",
+          "name": "Hilton Credit",
+          "valueType": "statement_credit",
+          "amountCents": 5000,
+          "cadence": "quarterly",
+          "refresh": {
+            "type": "calendar_quarter"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible stays of $50+ at participating Hilton properties each calendar quarter."
+        },
+        {
+          "id": "indeed",
+          "name": "Indeed Credit",
+          "valueType": "statement_credit",
+          "amountCents": 9000,
+          "cadence": "quarterly",
+          "refresh": {
+            "type": "calendar_quarter"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible Indeed purchases each calendar quarter."
+        },
+        {
+          "id": "adobe",
+          "name": "Adobe Credit",
+          "valueType": "statement_credit",
+          "amountCents": 25000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible Adobe purchases in the U.S. each calendar year."
+        },
+        {
+          "id": "clear_plus",
+          "name": "CLEAR+ Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20900,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Auto-renewing CLEAR+ membership, excluding taxes and fees."
+        },
+        {
+          "id": "wireless",
+          "name": "Wireless Credit",
+          "valueType": "statement_credit",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "allowsCustomCharge": true,
+          "note": "Eligible U.S. wireless telephone service purchases each calendar month."
+        },
+        {
+          "id": "chatgpt_business",
+          "name": "ChatGPT Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible ChatGPT Business subscription purchases each calendar year."
+        }
+      ]
+    },
+    {
+      "id": "bofa_premium_rewards_elite",
+      "issuer": "Bank of America",
+      "name": "Bank of America Premium Rewards Elite",
+      "imageAsset": "assets/cards/bofa_premium_rewards_elite.png",
+      "annualFeeCents": 55000,
+      "credits": [
+        {
+          "id": "airline_incidentals",
+          "name": "Airline Incidentals Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible airline incidental fees each calendar year."
+        },
+        {
+          "id": "lifestyle",
+          "name": "Lifestyle Credit",
+          "valueType": "statement_credit",
+          "amountCents": 15000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible streaming, food delivery, fitness, and rideshare purchases each calendar year."
+        }
+      ]
+    },
+    {
+      "id": "atmos_ascent",
+      "issuer": "Bank of America",
+      "name": "Atmos Rewards Ascent Visa Signature",
+      "imageAsset": "assets/cards/atmos_ascent.webp",
+      "annualFeeCents": 9500,
+      "credits": [
+        {
+          "id": "companion_fare",
+          "name": "Companion Fare",
+          "valueType": "certificate",
+          "amountCents": 25000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "spendGate": {
+            "thresholdCents": 600000
+          },
+          "note": "$99 (plus taxes) Companion Fare earned each card anniversary after $6,000 in prior-year purchases."
+        }
+      ]
+    },
+    {
+      "id": "atmos_summit",
+      "issuer": "Bank of America",
+      "name": "Atmos Rewards Summit Visa Infinite",
+      "imageAsset": "assets/cards/atmos_summit.webp",
+      "annualFeeCents": 39500,
+      "credits": [
+        {
+          "id": "companion_award",
+          "name": "Global Companion Award",
+          "valueType": "certificate",
+          "amountCents": 35000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "note": "25,000-point Global Companion Award issued each card anniversary."
+        },
+        {
+          "id": "companion_award_spend",
+          "name": "Global Companion Award (Spend Bonus)",
+          "valueType": "certificate",
+          "amountCents": 140000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "isAllOrNothing": true,
+          "spendGate": {
+            "thresholdCents": 6000000
+          },
+          "note": "Additional 100,000-point Global Companion Award after $60,000 in purchases each card anniversary year."
+        }
+      ]
+    },
+    {
+      "id": "bilt_obsidian",
+      "issuer": "Bilt",
+      "name": "Bilt Obsidian",
+      "imageAsset": "assets/cards/bilt_obsidian.png",
+      "annualFeeCents": 9500,
+      "credits": [
+        {
+          "id": "hotel_credit",
+          "name": "Bilt Travel Hotel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 5000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible hotel bookings through the Bilt Travel portal; two-night minimum stay. $50 each half-calendar year."
+        }
+      ]
+    },
+    {
+      "id": "bilt_palladium",
+      "issuer": "Bilt",
+      "name": "Bilt Palladium",
+      "imageAsset": "assets/cards/bilt_palladium.webp",
+      "annualFeeCents": 49500,
+      "credits": [
+        {
+          "id": "hotel_credit",
+          "name": "Bilt Travel Hotel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible hotel bookings through the Bilt Travel portal; two-night minimum stay. $200 each half-calendar year."
+        },
+        {
+          "id": "bilt_cash",
+          "name": "Bilt Cash",
+          "valueType": "partner_cash",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Bilt Cash deposited at the start of each calendar year, including with account opening."
+        }
+      ]
+    },
+    {
+      "id": "capital_one_venture_x",
+      "issuer": "Capital One",
+      "name": "Capital One Venture X Rewards",
+      "imageAsset": "assets/cards/capital_one_venture_x.png",
+      "annualFeeCents": 39500,
+      "credits": [
+        {
+          "id": "travel_credit",
+          "name": "Annual Travel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Bookings through Capital One Travel each account anniversary year."
+        }
+      ]
+    },
+    {
+      "id": "capital_one_venture_x_business",
+      "issuer": "Capital One",
+      "name": "Capital One Venture X Business",
+      "imageAsset": "assets/cards/capital_one_venture_x_business.png",
+      "annualFeeCents": 39500,
+      "credits": [
+        {
+          "id": "travel_credit",
+          "name": "Annual Travel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Bookings through Capital One Travel each account anniversary year."
+        }
+      ]
+    },
+    {
+      "id": "chase_sapphire_preferred",
+      "issuer": "Chase",
+      "name": "Chase Sapphire Preferred",
+      "imageAsset": "assets/cards/chase_sapphire_preferred.webp",
+      "annualFeeCents": 9500,
+      "credits": [
+        {
+          "id": "hotel_credit",
+          "name": "Chase Travel Hotel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 5000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible hotel stays booked through Chase Travel."
+        },
+        {
+          "id": "doordash_non_restaurant",
+          "name": "DoorDash Non-Restaurant Credit",
+          "valueType": "partner_credit",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible non-restaurant DoorDash orders."
+        }
+      ]
+    },
+    {
+      "id": "chase_sapphire_reserve",
+      "issuer": "Chase",
+      "name": "Chase Sapphire Reserve",
+      "imageAsset": "assets/cards/chase_sapphire_reserve.webp",
+      "annualFeeCents": 79500,
+      "credits": [
+        {
+          "id": "travel_credit",
+          "name": "Annual Travel Credit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible travel purchases each account anniversary year."
+        },
+        {
+          "id": "the_edit",
+          "name": "The Edit Credit",
+          "valueType": "statement_credit",
+          "amountCents": 50000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Prepaid The Edit bookings through Chase Travel; up to $250 per booking."
+        },
+        {
+          "id": "exclusive_tables",
+          "name": "Sapphire Exclusive Tables Dining Credit",
+          "valueType": "statement_credit",
+          "amountCents": 15000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible Sapphire Exclusive Tables restaurants on OpenTable."
+        },
+        {
+          "id": "doordash_promos",
+          "name": "DoorDash Promos",
+          "valueType": "partner_credit",
+          "amountCents": 2500,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Monthly DashPass promos: restaurant, grocery, retail, and more."
+        },
+        {
+          "id": "stubhub_viagogo",
+          "name": "StubHub and viagogo Credit",
+          "valueType": "statement_credit",
+          "amountCents": 15000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible StubHub and viagogo purchases through 12/31/2027.",
+          "validThrough": "2027-12-31"
+        },
+        {
+          "id": "lyft",
+          "name": "Lyft Credit",
+          "valueType": "partner_credit",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Monthly in-app Lyft credit through 9/30/2027.",
+          "validThrough": "2027-09-30"
+        },
+        {
+          "id": "peloton",
+          "name": "Peloton Membership Credit",
+          "valueType": "statement_credit",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Eligible Peloton memberships through 12/31/2027.",
+          "validThrough": "2027-12-31"
+        }
+      ]
+    },
+    {
+      "id": "united_explorer",
+      "issuer": "Chase",
+      "name": "United Explorer",
+      "imageAsset": "assets/cards/united_explorer.png",
+      "annualFeeCents": 15000,
+      "credits": [
+        {
+          "id": "united_travelbank",
+          "name": "United TravelBank Credit",
+          "valueType": "partner_credit",
+          "amountCents": 10000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "spendGate": {
+            "thresholdCents": 1000000
+          },
+          "note": "Earned after $10,000 in purchases each calendar year."
+        },
+        {
+          "id": "united_hotels",
+          "name": "United Hotels Credit",
+          "valueType": "statement_credit",
+          "amountCents": 10000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Two $50 prepaid United Hotels stay credits each anniversary year."
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare Credit",
+          "valueType": "statement_credit",
+          "amountCents": 500,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Yearly opt-in required for eligible rideshare purchases."
+        },
+        {
+          "id": "avis_budget",
+          "name": "Avis or Budget TravelBank Credit",
+          "valueType": "partner_credit",
+          "amountCents": 5000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Two $25 United TravelBank credits for eligible cars.united.com rentals."
+        },
+        {
+          "id": "instacart",
+          "name": "Instacart Credit",
+          "valueType": "partner_credit",
+          "amountCents": 1000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Monthly Instacart credit through 12/31/2027.",
+          "validThrough": "2027-12-31"
+        },
+        {
+          "id": "jsx",
+          "name": "JSX Credit",
+          "valueType": "statement_credit",
+          "amountCents": 10000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible flights booked directly with JSX each anniversary year."
+        }
+      ]
+    },
+    {
+      "id": "united_quest",
+      "issuer": "Chase",
+      "name": "United Quest",
+      "imageAsset": "assets/cards/united_quest.png",
+      "annualFeeCents": 35000,
+      "credits": [
+        {
+          "id": "united_travelbank",
+          "name": "United TravelBank Credit",
+          "valueType": "partner_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "United TravelBank cash after account opening and each account anniversary."
+        },
+        {
+          "id": "renowned_hotels",
+          "name": "Renowned Hotels Credit",
+          "valueType": "statement_credit",
+          "amountCents": 15000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Prepaid Renowned Hotels and Resorts stays each anniversary year."
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare Credit",
+          "valueType": "statement_credit",
+          "amountCents": 800,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "$8 monthly January through November; $12 in December. Yearly opt-in required.",
+          "amountSchedule": {
+            "overrides": {
+              "12": 1200
+            }
+          }
+        },
+        {
+          "id": "avis_budget",
+          "name": "Avis or Budget TravelBank Credit",
+          "valueType": "partner_credit",
+          "amountCents": 8000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Two $40 United TravelBank credits for eligible cars.united.com rentals."
+        },
+        {
+          "id": "instacart",
+          "name": "Instacart Credits",
+          "valueType": "partner_credit",
+          "amountCents": 1500,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "Monthly $10 and $5 Instacart credits through 12/31/2027.",
+          "validThrough": "2027-12-31"
+        },
+        {
+          "id": "jsx",
+          "name": "JSX Credit",
+          "valueType": "statement_credit",
+          "amountCents": 15000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible flights booked directly with JSX each anniversary year."
+        }
+      ]
+    },
+    {
+      "id": "united_club",
+      "issuer": "Chase",
+      "name": "United Club Card",
+      "imageAsset": "assets/cards/united_club.png",
+      "annualFeeCents": 69500,
+      "credits": [
+        {
+          "id": "instacart",
+          "name": "Instacart Credits",
+          "valueType": "partner_credit",
+          "amountCents": 2000,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": false,
+          "note": "Two $10 monthly Instacart credits through 12/31/2027.",
+          "validThrough": "2027-12-31"
+        },
+        {
+          "id": "renowned_hotels",
+          "name": "Renowned Hotels Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Prepaid Renowned Hotels and Resorts stays booked through United each anniversary year."
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare Credit",
+          "valueType": "statement_credit",
+          "amountCents": 1200,
+          "cadence": "monthly",
+          "refresh": {
+            "type": "calendar_month"
+          },
+          "requiresEnrollment": true,
+          "note": "$12 monthly January through November; $18 in December. Yearly opt-in required.",
+          "amountSchedule": {
+            "overrides": {
+              "12": 1800
+            }
+          }
+        },
+        {
+          "id": "jsx",
+          "name": "JSX Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Eligible flights booked directly with JSX each anniversary year."
+        },
+        {
+          "id": "avis_budget",
+          "name": "Avis or Budget TravelBank Credit",
+          "valueType": "partner_credit",
+          "amountCents": 10000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "anniversary_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Two $50 United TravelBank credits for eligible cars.united.com rentals."
+        }
+      ]
+    },
+    {
+      "id": "citi_strata_premier",
+      "issuer": "Citi",
+      "name": "Citi Strata Premier",
+      "imageAsset": "assets/cards/citi_strata_premier.webp",
+      "annualFeeCents": 9500,
+      "credits": [
+        {
+          "id": "hotel_credit",
+          "name": "Annual Hotel Savings Benefit",
+          "valueType": "statement_credit",
+          "amountCents": 10000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "One hotel stay of $500 or more booked through Citi Travel each calendar year."
+        }
+      ]
+    },
+    {
+      "id": "citi_strata_elite",
+      "issuer": "Citi",
+      "name": "Citi Strata Elite",
+      "imageAsset": "assets/cards/citi_strata_elite.webp",
+      "annualFeeCents": 59500,
+      "credits": [
+        {
+          "id": "hotel_credit",
+          "name": "Annual Hotel Benefit",
+          "valueType": "statement_credit",
+          "amountCents": 30000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": false,
+          "note": "Up to $300 off a hotel stay of two nights or more booked through cititravel.com each calendar year."
+        },
+        {
+          "id": "splurge",
+          "name": "Splurge Credit",
+          "valueType": "statement_credit",
+          "amountCents": 20000,
+          "cadence": "annual",
+          "refresh": {
+            "type": "calendar_year"
+          },
+          "requiresEnrollment": true,
+          "note": "Up to $200 each calendar year on up to two selected brands: 1stDibs, American Airlines, Best Buy, Future Personal Training, or Live Nation."
+        },
+        {
+          "id": "blacklane",
+          "name": "Blacklane Credit",
+          "valueType": "statement_credit",
+          "amountCents": 10000,
+          "cadence": "semiannual",
+          "refresh": {
+            "type": "calendar_half"
+          },
+          "requiresEnrollment": false,
+          "note": "Up to $100 on Blacklane chauffeur bookings each half of the calendar year."
+        }
+      ]
+    }
+  ]
+}

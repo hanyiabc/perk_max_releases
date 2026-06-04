@@ -1,0 +1,562 @@
+{
+  "catalogVersion": 1,
+  "subscriptions": [
+    {
+      "id": "disney_plus",
+      "name": "Disney+",
+      "provider": "Disney",
+      "sourceUrl": "https://help.disneyplus.com/article/disneyplus-price",
+      "note": "Eligible when purchased directly from Disney+.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "basic_monthly",
+          "name": "Disney+ Basic",
+          "billingCadence": "monthly",
+          "chargeCents": 1199
+        },
+        {
+          "id": "premium_monthly",
+          "name": "Disney+ Premium",
+          "billingCadence": "monthly",
+          "chargeCents": 1899
+        }
+      ]
+    },
+    {
+      "id": "disney_bundle",
+      "name": "Disney Bundle",
+      "provider": "Disney",
+      "sourceUrl": "https://help.disneyplus.com/article/disneyplus-price",
+      "note": "Eligible Disney+ bundle purchased directly from Disney.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "duo_basic_monthly",
+          "name": "Duo Basic",
+          "billingCadence": "monthly",
+          "chargeCents": 1299
+        },
+        {
+          "id": "duo_premium_monthly",
+          "name": "Duo Premium",
+          "billingCadence": "monthly",
+          "chargeCents": 1999
+        },
+        {
+          "id": "trio_basic_monthly",
+          "name": "Trio Basic",
+          "billingCadence": "monthly",
+          "chargeCents": 1699
+        },
+        {
+          "id": "trio_premium_monthly",
+          "name": "Trio Premium",
+          "billingCadence": "monthly",
+          "chargeCents": 2699
+        }
+      ]
+    },
+    {
+      "id": "espn_streaming",
+      "name": "ESPN Streaming",
+      "provider": "ESPN",
+      "sourceUrl": "https://support.espn.com/hc/en-us/articles/40375475974036-ESPN-Select-or-Unlimited-Plans-and-Prices",
+      "note": "Eligible ESPN streaming services purchased directly from ESPN.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "select_monthly",
+          "name": "ESPN Select",
+          "billingCadence": "monthly",
+          "chargeCents": 1299
+        },
+        {
+          "id": "unlimited_monthly",
+          "name": "ESPN Unlimited",
+          "billingCadence": "monthly",
+          "chargeCents": 2999
+        }
+      ]
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "provider": "Hulu",
+      "sourceUrl": "https://help.hulu.com/article/hulu-how-much-does-hulu-cost",
+      "note": "Eligible when purchased directly from Hulu.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "with_ads_monthly",
+          "name": "Hulu with Ads",
+          "billingCadence": "monthly",
+          "chargeCents": 1199
+        },
+        {
+          "id": "no_ads_monthly",
+          "name": "Hulu No Ads",
+          "billingCadence": "monthly",
+          "chargeCents": 1899
+        }
+      ]
+    },
+    {
+      "id": "new_york_times",
+      "name": "The New York Times",
+      "provider": "The New York Times",
+      "sourceUrl": "https://www.nytimes.com/subscription",
+      "note": "Eligible direct New York Times digital subscriptions.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "news_monthly",
+          "name": "News",
+          "billingCadence": "monthly",
+          "chargeCents": 2500
+        },
+        {
+          "id": "all_access_monthly",
+          "name": "All Access",
+          "billingCadence": "monthly",
+          "chargeCents": 3500
+        }
+      ]
+    },
+    {
+      "id": "paramount_plus",
+      "name": "Paramount+",
+      "provider": "Paramount",
+      "sourceUrl": "https://www.paramountplus.com/",
+      "note": "Eligible when purchased directly from Paramount+.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "essential_monthly",
+          "name": "Essential",
+          "billingCadence": "monthly",
+          "chargeCents": 899
+        },
+        {
+          "id": "premium_monthly",
+          "name": "Premium",
+          "billingCadence": "monthly",
+          "chargeCents": 1399
+        }
+      ]
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "provider": "NBCUniversal",
+      "sourceUrl": "https://www.peacocktv.com/plans/all-monthly",
+      "note": "Eligible when purchased directly from Peacock.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "premium_monthly",
+          "name": "Premium",
+          "billingCadence": "monthly",
+          "chargeCents": 1099
+        },
+        {
+          "id": "premium_plus_monthly",
+          "name": "Premium Plus",
+          "billingCadence": "monthly",
+          "chargeCents": 1699
+        }
+      ]
+    },
+    {
+      "id": "wall_street_journal",
+      "name": "The Wall Street Journal",
+      "provider": "Dow Jones",
+      "sourceUrl": "https://subscribe.wsj.com/",
+      "note": "Eligible direct Wall Street Journal digital subscriptions.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "digital_monthly",
+          "name": "Digital",
+          "billingCadence": "monthly",
+          "chargeCents": 3899
+        },
+        {
+          "id": "bundle_monthly",
+          "name": "WSJ, Barron's, and MarketWatch",
+          "billingCadence": "monthly",
+          "chargeCents": 4599
+        }
+      ]
+    },
+    {
+      "id": "youtube_premium",
+      "name": "YouTube Premium",
+      "provider": "YouTube",
+      "sourceUrl": "https://www.youtube.com/premium",
+      "note": "Eligible YouTube Premium subscriptions purchased directly from YouTube.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "lite_monthly",
+          "name": "Premium Lite",
+          "billingCadence": "monthly",
+          "chargeCents": 899
+        },
+        {
+          "id": "individual_monthly",
+          "name": "Premium Individual",
+          "billingCadence": "monthly",
+          "chargeCents": 1599
+        },
+        {
+          "id": "family_monthly",
+          "name": "Premium Family",
+          "billingCadence": "monthly",
+          "chargeCents": 2699
+        }
+      ]
+    },
+    {
+      "id": "youtube_tv",
+      "name": "YouTube TV",
+      "provider": "YouTube",
+      "sourceUrl": "https://tv.youtube.com/",
+      "note": "Eligible YouTube TV subscriptions purchased directly from YouTube.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "digital_entertainment" }
+      ],
+      "plans": [
+        {
+          "id": "base_monthly",
+          "name": "Base Plan",
+          "billingCadence": "monthly",
+          "chargeCents": 8299
+        },
+        {
+          "id": "entertainment_monthly",
+          "name": "Entertainment Plan",
+          "billingCadence": "monthly",
+          "chargeCents": 5499
+        },
+        {
+          "id": "sports_monthly",
+          "name": "Sports Plan",
+          "billingCadence": "monthly",
+          "chargeCents": 6499
+        }
+      ]
+    },
+    {
+      "id": "walmart_plus",
+      "name": "Walmart+",
+      "provider": "Walmart",
+      "sourceUrl": "https://www.walmart.com/plus",
+      "note": "Use monthly billing to consume the monthly membership credit on Platinum or Business Gold.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "walmart_plus" },
+        { "cardId": "amex_business_gold", "creditId": "walmart_plus" }
+      ],
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly Membership",
+          "billingCadence": "monthly",
+          "chargeCents": 1295
+        }
+      ]
+    },
+    {
+      "id": "clear_plus",
+      "name": "CLEAR+",
+      "provider": "CLEAR",
+      "sourceUrl": "https://www.clearme.com/",
+      "note": "Annual CLEAR+ membership paid with Platinum or Hilton Aspire.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "clear_plus" },
+        { "cardId": "amex_hilton_aspire", "creditId": "clear_plus" },
+        { "cardId": "amex_business_platinum", "creditId": "clear_plus" }
+      ],
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual Membership",
+          "billingCadence": "annual",
+          "chargeCents": 20900
+        }
+      ]
+    },
+    {
+      "id": "uber_one",
+      "name": "Uber One",
+      "provider": "Uber",
+      "sourceUrl": "https://www.uber.com/us/en/uber-one/",
+      "note": "Auto-renewing Uber One memberships paid with Platinum or Delta Reserve are eligible up to each card's cap.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "uber_one" },
+        { "cardId": "amex_delta_reserve", "creditId": "uber_one" }
+      ],
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly Membership",
+          "billingCadence": "monthly",
+          "chargeCents": 999
+        },
+        {
+          "id": "annual",
+          "name": "Annual Membership",
+          "billingCadence": "annual",
+          "chargeCents": 9600
+        }
+      ]
+    },
+    {
+      "id": "equinox_plus",
+      "name": "Equinox+",
+      "provider": "Equinox",
+      "sourceUrl": "https://platinum.equinox.com/",
+      "note": "Eligible Equinox+ digital subscription paid with Platinum.",
+      "targets": [
+        { "cardId": "amex_platinum", "creditId": "equinox" }
+      ],
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly Digital Subscription",
+          "billingCadence": "monthly",
+          "chargeCents": 3999
+        }
+      ]
+    },
+    {
+      "id": "peloton",
+      "name": "Peloton Membership",
+      "provider": "Peloton",
+      "sourceUrl": "https://www.onepeloton.com/digital/promotions/chase",
+      "note": "Eligible monthly memberships purchased directly from Peloton with Sapphire Reserve.",
+      "targets": [
+        { "cardId": "chase_sapphire_reserve", "creditId": "peloton" }
+      ],
+      "plans": [
+        {
+          "id": "all_access_monthly",
+          "name": "All-Access Membership",
+          "billingCadence": "monthly",
+          "chargeCents": 4900
+        },
+        {
+          "id": "rental_monthly",
+          "name": "Rental Membership",
+          "billingCadence": "monthly",
+          "chargeCents": 8900
+        },
+        {
+          "id": "app_plus_monthly",
+          "name": "App+",
+          "billingCadence": "monthly",
+          "chargeCents": 2400
+        },
+        {
+          "id": "guide_monthly",
+          "name": "Guide Membership",
+          "billingCadence": "monthly",
+          "chargeCents": 2400
+        },
+        {
+          "id": "app_one_monthly",
+          "name": "App One",
+          "billingCadence": "monthly",
+          "chargeCents": 1299
+        },
+        {
+          "id": "strength_plus_monthly",
+          "name": "Strength+",
+          "billingCadence": "monthly",
+          "chargeCents": 999
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "provider": "OpenAI",
+      "sourceUrl": "https://openai.com/chatgpt/pricing/",
+      "note": "Eligible ChatGPT subscriptions paid with Business Gold, up to $25/month.",
+      "targets": [
+        { "cardId": "amex_business_gold", "creditId": "chatgpt_business" },
+        { "cardId": "amex_business_platinum", "creditId": "chatgpt_business" }
+      ],
+      "plans": [
+        {
+          "id": "plus_monthly",
+          "name": "ChatGPT Plus",
+          "billingCadence": "monthly",
+          "chargeCents": 2000
+        },
+        {
+          "id": "team_monthly",
+          "name": "ChatGPT Team (per seat)",
+          "billingCadence": "monthly",
+          "chargeCents": 3000
+        },
+        {
+          "id": "team_annual",
+          "name": "ChatGPT Team Annual (per seat)",
+          "billingCadence": "annual",
+          "chargeCents": 25200
+        }
+      ]
+    },
+    {
+      "id": "squarespace",
+      "name": "Squarespace",
+      "provider": "Squarespace",
+      "sourceUrl": "https://www.squarespace.com/pricing",
+      "note": "Eligible Squarespace subscriptions paid with Business Gold, up to $150/year.",
+      "targets": [
+        { "cardId": "amex_business_gold", "creditId": "squarespace" }
+      ],
+      "plans": [
+        {
+          "id": "personal_monthly",
+          "name": "Personal",
+          "billingCadence": "monthly",
+          "chargeCents": 2300
+        },
+        {
+          "id": "business_monthly",
+          "name": "Business",
+          "billingCadence": "monthly",
+          "chargeCents": 3300
+        },
+        {
+          "id": "commerce_basic_monthly",
+          "name": "Commerce Basic",
+          "billingCadence": "monthly",
+          "chargeCents": 3600
+        },
+        {
+          "id": "commerce_advanced_monthly",
+          "name": "Commerce Advanced",
+          "billingCadence": "monthly",
+          "chargeCents": 6500
+        }
+      ]
+    },
+    {
+      "id": "adobe_creative_cloud",
+      "name": "Adobe Creative Cloud",
+      "provider": "Adobe",
+      "sourceUrl": "https://www.adobe.com/creativecloud/plans.html",
+      "note": "Eligible Adobe Creative Cloud subscriptions paid with Business Platinum.",
+      "targets": [
+        { "cardId": "amex_business_platinum", "creditId": "adobe" }
+      ],
+      "plans": [
+        {
+          "id": "express_premium_monthly",
+          "name": "Adobe Express Premium",
+          "billingCadence": "monthly",
+          "chargeCents": 999
+        },
+        {
+          "id": "photography_monthly",
+          "name": "Photography Plan (1TB)",
+          "billingCadence": "monthly",
+          "chargeCents": 1999
+        },
+        {
+          "id": "photography_20gb_monthly",
+          "name": "Photography Plan (20GB)",
+          "billingCadence": "monthly",
+          "chargeCents": 1499
+        },
+        {
+          "id": "photography_20gb_annual",
+          "name": "Photography Plan (20GB, Annual)",
+          "billingCadence": "annual",
+          "chargeCents": 11988
+        },
+        {
+          "id": "single_app_monthly",
+          "name": "Single App",
+          "billingCadence": "monthly",
+          "chargeCents": 2299
+        },
+        {
+          "id": "standard_monthly",
+          "name": "Creative Cloud Standard",
+          "billingCadence": "monthly",
+          "chargeCents": 5499
+        },
+        {
+          "id": "pro_monthly",
+          "name": "Creative Cloud Pro",
+          "billingCadence": "monthly",
+          "chargeCents": 6999
+        }
+      ]
+    },
+    {
+      "id": "indeed_employer",
+      "name": "Indeed for Employers",
+      "provider": "Indeed",
+      "sourceUrl": "https://www.indeed.com/hire/o/pricing",
+      "note": "Eligible Indeed employer subscription plans paid with Business Platinum.",
+      "targets": [
+        { "cardId": "amex_business_platinum", "creditId": "indeed" }
+      ],
+      "plans": [
+        {
+          "id": "resume_standard_monthly",
+          "name": "Resume Standard",
+          "billingCadence": "monthly",
+          "chargeCents": 12000
+        },
+        {
+          "id": "resume_standard_annual",
+          "name": "Resume Standard (Annual)",
+          "billingCadence": "annual",
+          "chargeCents": 115000
+        },
+        {
+          "id": "resume_professional_monthly",
+          "name": "Resume Professional",
+          "billingCadence": "monthly",
+          "chargeCents": 30000
+        },
+        {
+          "id": "resume_professional_annual",
+          "name": "Resume Professional (Annual)",
+          "billingCadence": "annual",
+          "chargeCents": 288000
+        },
+        {
+          "id": "professional_platform_monthly",
+          "name": "Professional Platform",
+          "billingCadence": "monthly",
+          "chargeCents": 40000
+        }
+      ]
+    }
+  ]
+}

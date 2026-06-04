@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Completing sign-in…</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 48px; color: #333; }
+    </style>
+  </head>
+  <body>
+    <p>Completing sign-in&hellip;</p>
+    <script>
+      (function () {
+        var params = {};
+        new URLSearchParams(window.location.search).forEach(function (v, k) {
+          params[k] = v;
+        });
+        params.type = 'oauth2callback';
+        if (window.opener) {
+          window.opener.postMessage(JSON.stringify(params), window.location.origin);
+          setTimeout(function () { window.close(); }, 500);
+        } else {
+          document.body.innerHTML = '<p>Sign-in complete. You may close this tab.</p>';
+        }
+      })();
+    </script>
+  </body>
+</html>
