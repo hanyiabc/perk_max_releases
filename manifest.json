@@ -4,6 +4,7 @@
     "description": "Track credit card rewards, credits, and manage backups.",
     "id": "/perk_max_releases/",
     "start_url": "/perk_max_releases/",
+    "scope": "/perk_max_releases/",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#246B68",
