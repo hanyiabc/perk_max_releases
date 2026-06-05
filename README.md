@@ -1,6 +1,8 @@
 # PerkMax
 
-**Track recurring credits &amp; perks on your premium credit cards.** Know what you have, what you've used, and what's expiring — all in one place.
+**Track recurring credits \& perks on your premium credit cards.** Know what you have, what've used, and what's expiring — all in one place.
+
+Visit the [PerkMax landing page](https://hanyiabc.github.io/perk_max_site/) to learn more.
 
 ---
 
@@ -8,7 +10,7 @@
 
 | Platform | Link |
 |----------|------|
-| 🌐 **Web App (PWA)** | [perkmax.app](https://hanyiabc.github.io/perk_max_releases/) |
+| 🌐 **Web App (PWA)** | [Open app](https://hanyiabc.github.io/perk_max_releases/) |
 | 📱 **Android (APK)** | [Latest Release](https://github.com/hanyiabc/perk_max_releases/releases/latest) |
 | 🪟 **Windows** | [Latest Release](https://github.com/hanyiabc/perk_max_releases/releases/latest) |
 
@@ -19,9 +21,9 @@
 - **Wallet dashboard** — all your cards, credits, and perks in one view
 - **Spend tracking** — track progress toward spend-gated credits
 - **Usage logging** — mark credits used, with history and notes
-- **Cloud backup** — Google Drive &amp; OneDrive sync
-- **Variable credits** — supports time-limited &amp; amount-variable credits
-- **All-or-nothing credits** — free nights, companion certificates, and more
+- **Cloud backup** — Google Drive sync
+- **Variable credits** — supports time-limited \& amount-variable credits
+- **Certificates \& free nights** — free nights, companion certificates, and more
 
 ## Auto-Update
 
