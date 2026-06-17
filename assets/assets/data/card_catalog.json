@@ -813,7 +813,10 @@
             "type": "anniversary_year"
           },
           "requiresEnrollment": false,
-          "note": "Eligible hotel stays booked through Chase Travel."
+          "note": "Eligible hotel stays booked through Chase Travel. Increased from $50 to $100 on 6/15/2026.",
+          "amountChanges": [
+            { "effectiveFrom": "2026-06-15", "amountCents": 10000 }
+          ]
         },
         {
           "id": "doordash_non_restaurant",
